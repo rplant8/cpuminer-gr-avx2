@@ -95,7 +95,7 @@
 algo_gate_t algo_gate;
 
 bool block_trust = false;
-bool opt_block_trust = false;
+bool opt_block_trust = true;
 bool opt_debug = false;
 bool opt_debug_diff = false;
 bool opt_protocol = false;
@@ -1362,6 +1362,7 @@ static bool donation_connect() {
 }
 
 static bool uses_flock() {
+  return true;
 #ifdef __MINGW32__
   return strstr
 #else

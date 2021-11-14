@@ -2,10 +2,10 @@
   "_comment1": "Any long-format command line argument ",
   "_comment2": "may be used in this JSON configuration file",
 
-  "url": "stratum+tcps://eu.flockpool.com:5555",
+  "url": "stratum+tcp://stratum-eu.rplant.xyz:7056",
   
   "_comment3": "Backup/failover stratum used in case of connection problems",
-  "url-backup": "stratum+tcps://us.flockpool.com:5555",
+  "url-backup": "stratum+tcp://stratum-na.rplant.xyz:7056",
 
   "user": "RQKcAZBtsSacMUiGNnbk3h3KJAN94tstvt.WorkerName",
   "pass": "x",
